@@ -1,22 +1,23 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26124.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B8CB57F5-C87C-48A1-A3DC-BF5BBA95EB25}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{E6D01694-CB7C-4226-99EE-103B75B923FB}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Dash.NET.POC", "src\Dash.NET.POC\Dash.NET.POC.fsproj", "{C56E75B2-5671-46E1-8594-6529135E7082}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Dash.NET.POC", "src\Dash.NET.POC\Dash.NET.POC.fsproj", "{C56E75B2-5671-46E1-8594-6529135E7082}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Dash.NET.POC.Tests", "tests\Dash.NET.POC.Tests\Dash.NET.POC.Tests.fsproj", "{DB284F96-3FC7-49A0-8667-18732B962F3E}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Dash.NET.POC.Tests", "tests\Dash.NET.POC.Tests\Dash.NET.POC.Tests.fsproj", "{DB284F96-3FC7-49A0-8667-18732B962F3E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_root", "_root", "{625E3CAC-600B-450D-BF54-E3059450591A}"
-ProjectSection(SolutionItems) = preProject
-	build.bat = build.bat
-	build.sh = build.sh
-	README.md = README.md
-EndProjectSection
+	ProjectSection(SolutionItems) = preProject
+		build.bat = build.bat
+		build.sh = build.sh
+		global.json = global.json
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,13 +27,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{C56E75B2-5671-46E1-8594-6529135E7082} = {B8CB57F5-C87C-48A1-A3DC-BF5BBA95EB25}
-		{DB284F96-3FC7-49A0-8667-18732B962F3E} = {E6D01694-CB7C-4226-99EE-103B75B923FB}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{C56E75B2-5671-46E1-8594-6529135E7082}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -59,5 +53,15 @@ Global
 		{DB284F96-3FC7-49A0-8667-18732B962F3E}.Release|x64.Build.0 = Release|Any CPU
 		{DB284F96-3FC7-49A0-8667-18732B962F3E}.Release|x86.ActiveCfg = Release|Any CPU
 		{DB284F96-3FC7-49A0-8667-18732B962F3E}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C56E75B2-5671-46E1-8594-6529135E7082} = {B8CB57F5-C87C-48A1-A3DC-BF5BBA95EB25}
+		{DB284F96-3FC7-49A0-8667-18732B962F3E} = {E6D01694-CB7C-4226-99EE-103B75B923FB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D20832AE-EE73-46A0-BD05-90F03299B808}
 	EndGlobalSection
 EndGlobal
