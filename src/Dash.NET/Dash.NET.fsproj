@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="HTMLComponents.fs" />
+    <Compile Include="CoreComponents.fs" />
+    <Compile Include="DashComponents\ComponentBase.fs" />
+    <Compile Include="DashComponents\HTMLComponents\Div.fs" />
+    <Compile Include="DashComponents\CoreComponents\Graph.fs" />
+    <Compile Include="DashComponents\CoreComponents\Input.fs" />
+    <Compile Include="DynamicInvoke.fs" />
+    <Compile Include="Callback.fs" />
+    <Compile Include="DashConfig.fs" />
+    <Compile Include="Views.fs" />
+    <Compile Include="DashApp.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Giraffe" Version="4.1.0" />
+    <PackageReference Include="Plotly.NET" Version="2.0.0-alpha2" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,70 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/rpkyle/PlotlyRepos/Dash.NET/src/Dash.NET/Dash.NET.fsproj": {}
+  },
+  "projects": {
+    "/home/rpkyle/PlotlyRepos/Dash.NET/src/Dash.NET/Dash.NET.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/rpkyle/PlotlyRepos/Dash.NET/src/Dash.NET/Dash.NET.fsproj",
+        "projectName": "Dash.NET",
+        "projectPath": "/home/rpkyle/PlotlyRepos/Dash.NET/src/Dash.NET/Dash.NET.fsproj",
+        "packagesPath": "/home/rpkyle/.nuget/packages/",
+        "outputPath": "/home/rpkyle/PlotlyRepos/Dash.NET/src/Dash.NET/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/rpkyle/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "FSharp.Core": {
+              "target": "Package",
+              "version": "[4.7.1, )",
+              "generatePathProperty": true
+            },
+            "Giraffe": {
+              "target": "Package",
+              "version": "[4.1.0, )",
+              "generatePathProperty": true
+            },
+            "Plotly.NET": {
+              "target": "Package",
+              "version": "[2.0.0-alpha2, )",
+              "generatePathProperty": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+/home/rpkyle/PlotlyRepos/Dash.NET/src/Dash.NET/bin/Debug/netstandard2.1/Dash.NET.deps.json
+/home/rpkyle/PlotlyRepos/Dash.NET/src/Dash.NET/bin/Debug/netstandard2.1/Dash.NET.dll
+/home/rpkyle/PlotlyRepos/Dash.NET/src/Dash.NET/bin/Debug/netstandard2.1/Dash.NET.pdb
+/home/rpkyle/PlotlyRepos/Dash.NET/src/Dash.NET/obj/Debug/netstandard2.1/Dash.NET.fsprojAssemblyReference.cache
+/home/rpkyle/PlotlyRepos/Dash.NET/src/Dash.NET/obj/Debug/netstandard2.1/Dash.NET.AssemblyInfoInputs.cache
+/home/rpkyle/PlotlyRepos/Dash.NET/src/Dash.NET/obj/Debug/netstandard2.1/Dash.NET.AssemblyInfo.fs
+/home/rpkyle/PlotlyRepos/Dash.NET/src/Dash.NET/obj/Debug/netstandard2.1/Dash.NET.dll
+/home/rpkyle/PlotlyRepos/Dash.NET/src/Dash.NET/obj/Debug/netstandard2.1/Dash.NET.pdb
